@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h3>{{date}}</h3>
+    <h3>Idag är det: {{date}}</h3>
   </div>
 </template>
 
