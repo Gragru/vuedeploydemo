@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h3>{{date}}</h3>
   </div>
 </template>
 
@@ -8,6 +9,11 @@
 export default {
   props: {
     msg: String
+  },
+  data(){
+    return {
+      date: new Date()
+    }
   }
 }
 </script>
