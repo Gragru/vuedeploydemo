@@ -6,7 +6,6 @@
 
 <script>
 export default {
-  name: 'Hejsan GitHub',
   props: {
     msg: String
   }
